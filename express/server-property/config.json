@@ -1,0 +1,9 @@
+{
+    "db": 
+    {
+        "host"     : "10.211.50.35",
+        "user"     : "traininguser",
+        "password" : "P@ssw0rd@123",
+        "database" : "antonth"
+    }
+}

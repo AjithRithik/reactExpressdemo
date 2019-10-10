@@ -1,0 +1,302 @@
+body{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.bg {
+    background: url("./asserts/bg.png"); 
+    opacity:0.3;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+}
+
+.bg-light-white{
+    background: white;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.bg-light-blue{
+    background: #418dd2;
+}
+
+.flex-5{
+    flex: 5%;
+}
+
+.flex-10{
+    flex: 10%;
+}
+
+.flex-15{
+    flex: 15%;
+}
+.row-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-20{
+    flex: 20%;
+}
+
+.flex-25{
+    flex: 25%;
+}
+
+.flex-30{
+    flex: 30%;
+}
+
+.flex-40{
+    flex: 40%;
+}
+
+.flex-70{
+    flex: 70%;
+}
+
+.flex-80{
+    flex: 80%;
+}
+
+.flex-85{
+    flex: 85%;
+}
+
+.flex-100{
+    flex: 100%;
+}
+
+.w120{
+    width:120px;
+}
+
+.flex{
+    display: flex;
+}
+
+.w10p{
+    width: 10%;
+}
+
+.w15p{
+    width: 15%;
+}
+
+.w20p{
+    width: 20%;
+}
+
+.w30p{
+    width: 30%;
+}
+
+.w40p{
+    width: 40%;
+}
+
+.w50p{
+    width: 50%;
+}
+
+.w60p{
+    width: 60%;
+}
+
+.w70p{
+    width: 70%;
+}
+
+.w80p{
+    width: 80%;
+}
+
+.row{
+    flex-direction: row;   
+}
+
+.column{
+    flex-direction: column;
+}
+
+.end-end{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.center-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.start-center{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.center-start{
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tc--white{
+    color: white;
+}
+
+.tc--blue{
+    color:#2754b9
+}
+
+.h100p{
+    height: 100%;
+}
+
+.w200{
+    width: 200px;
+}
+
+
+.w560{
+    width: 560px;
+}
+
+.w280{
+    width: 280px;
+}
+
+.w180{
+    width: 180px;
+}
+
+.w360{
+    width: 360px;
+}
+
+.w20{
+    width: 20px;
+}
+
+.p15{
+    padding: 15px;
+}
+.p10{
+    padding: 10px;
+}
+
+.p20{
+    padding: 20px;
+}
+
+.p30{
+    padding: 30px;
+}
+
+.pl10{
+    padding-left: 10px;
+}
+
+.pt20{
+    padding-top: 20px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.pt10{
+    padding-top: 10px;
+}
+
+.f18{
+    font-size: 18px !important;
+}
+
+.f24{
+    font-size: 24px !important;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.w100p{
+    width: 100%;
+}
+
+.w100{
+    width: 100px;
+}
+
+.caps{
+    text-transform: uppercase;
+}
+
+.border_white_bottom{
+    border-bottom: 0.5px solid white;
+}
+
+/*****************Dash Board ********************/
+.dashBoard-card{
+    background: #e7e8e0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    border-radius: 5px;
+}
+
+.table-row{
+    border-bottom: 1px solid black;
+    color: gray;
+}
+
+.statusBorder{
+    border-left: 5px solid black;
+    height: 40px;
+}
+
+.profileImg{
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+.header_tabel{
+    border-bottom: 1px solid black;
+}
+
+.table_content{
+    position: absolute;
+    overflow: auto;
+    width: 98%;
+    height: calc(100% - 138px);
+}
+.main-Container{
+    position: absolute;
+    width: calc(100% - 15%);
+    height: calc(100% - 54px);
+}
+
+.active_Border{
+    border-right: 5px solid #213a70;
+}
+
+.AddFabPosition{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.navBar:hover{
+    border-right: 5px solid #213a70;
+}
+
